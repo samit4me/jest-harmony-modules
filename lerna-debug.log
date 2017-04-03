@@ -1,0 +1,47 @@
+lerna(verbose) GitUtilities.isInitialized    ()
+lerna(verbose) GitUtilities.isInitialized    () => true
+lerna(verbose) GitUtilities.getTopLevelDirectory()
+lerna(verbose) GitUtilities.getTopLevelDirectory() => "C:/Dev/jest-harmony-modules"
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\lerna.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\lerna.json") => true
+lerna(verbose) FileSystemUtilities.readFileSync("C:\\Dev\\jest-harmony-modules\\lerna.json")
+lerna(verbose) FileSystemUtilities.readFileSync("C:\\Dev\\jest-harmony-modules\\lerna.json") => "{\n  \"lerna\": \"2.0.0-beta.38\",\n  \"packages\": [\n    \"packages/*\"\n  ],\n  \"version\": \"independent\"\n}"
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\package.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\package.json") => true
+lerna(verbose) FileSystemUtilities.readFileSync("C:\\Dev\\jest-harmony-modules\\package.json")
+lerna(verbose) FileSystemUtilities.readFileSync("C:\\Dev\\jest-harmony-modules\\package.json") => "{\n  \"name\": \"jest-harmony-modules\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"react\": \"^15.4.2\",\n    \"react-dom\": \"^15.4.2\"\n  },\n  \"devDependencies\": {\n    \"enzyme\": \"^2.8.0\",\n    \"react-addons-test-utils\": \"^15.4.2\",\n    \"autoprefixer\": \"6.7.2\",\n    \"babel-core\": \"6.22.1\",\n    \"babel-eslint\": \"7.1.1\",\n    \"babel-jest\": \"18.0.0\",\n    \"babel-loader\": \"6.2.10\",\n    \"babel-preset-react-app\": \"^2.2.0\",\n    \"babel-runtime\": \"^6.20.0\",\n    \"case-sensitive-paths-webpack-plugin\": \"1.1.4\",\n    \"chalk\": \"1.1.3\",\n    \"connect-history-api-fallback\": \"1.3.0\",\n    \"cross-spawn\": \"4.0.2\",\n    \"css-loader\": \"0.26.1\",\n    \"detect-port\": \"1.1.0\",\n    \"dotenv\": \"2.0.0\",\n    \"eslint\": \"3.16.1\",\n    \"eslint-config-react-app\": \"^0.6.2\",\n    \"eslint-loader\": \"1.6.0\",\n    \"eslint-plugin-flowtype\": \"2.21.0\",\n    \"eslint-plugin-import\": \"2.0.1\",\n    \"eslint-plugin-jsx-a11y\": \"4.0.0\",\n    \"eslint-plugin-react\": \"6.4.1\",\n    \"extract-text-webpack-plugin\": \"1.0.1\",\n    \"file-loader\": \"0.10.0\",\n    \"fs-extra\": \"0.30.0\",\n    \"html-webpack-plugin\": \"2.24.0\",\n    \"http-proxy-middleware\": \"0.17.3\",\n    \"jest\": \"18.1.0\",\n    \"json-loader\": \"0.5.4\",\n    \"object-assign\": \"4.1.1\",\n    \"postcss-loader\": \"1.2.2\",\n    \"promise\": \"7.1.1\",\n    \"react-dev-utils\": \"^0.5.2\",\n    \"style-loader\": \"0.13.1\",\n    \"url-loader\": \"0.5.7\",\n    \"webpack\": \"1.14.0\",\n    \"webpack-dev-server\": \"1.16.2\",\n    \"webpack-manifest-plugin\": \"1.1.0\",\n    \"whatwg-fetch\": \"2.0.2\",\n    \"lerna\": \"2.0.0-beta.38\"\n  },\n  \"scripts\": {\n    \"start\": \"node scripts/start.js\",\n    \"build\": \"node scripts/build.js\",\n    \"test\": \"node scripts/test.js --env=jsdom\"\n  },\n  \"jest\": {\n    \"collectCoverageFrom\": [\n      \"src/**/*.{js,jsx}\"\n    ],\n    \"setupFiles\": [\n      \"<rootDir>/config/polyfills.js\"\n    ],\n    \"testPathIgnorePatterns\": [\n      \"<rootDir>[/\\\\\\\\](build|docs|node_modules|scripts)[/\\\\\\\\]\"\n    ],\n    \"testEnvironment\": \"node\",\n    \"testURL\": \"http://localhost\",\n    \"transform\": {\n      \"^.+\\\\.(js|jsx)$\": \"<rootDir>/node_modules/babel-jest\",\n      \"^.+\\\\.css$\": \"<rootDir>/config/jest/cssTransform.js\",\n      \"^(?!.*\\\\.(js|jsx|css|json)$)\": \"<rootDir>/config/jest/fileTransform.js\"\n    },\n    \"transformIgnorePatterns\": [\n      \"[/\\\\\\\\]node_modules[/\\\\\\\\](?!000|111).+\\\\.(js|jsx)$\"\n    ],\n    \"moduleNameMapper\": {\n      \"^react-native$\": \"react-native-web\"\n    }\n  },\n  \"babel\": {\n    \"presets\": [\n      \"react-app\"\n    ]\n  },\n  \"eslintConfig\": {\n    \"extends\": \"react-app\"\n  }\n}"
+lerna(info)    Lerna v2.0.0-beta.38
+lerna(info)    Independent Versioning Mode
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\package.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\package.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\lerna.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\lerna.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\VERSION")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\VERSION") => false
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\packages\\000\\package.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\packages\\000\\package.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\packages\\111\\package.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\packages\\111\\package.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\packages\\222\\package.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Dev\\jest-harmony-modules\\packages\\222\\package.json") => true
+lerna(verbose) Attempting running BootstrapCommand.initialize
+lerna(verbose) Successfully ran BootstrapCommand.initialize
+lerna(verbose) Attempting running BootstrapCommand.execute
+lerna(info)    Bootstrapping 3 packages
+lerna(info)    Preinstalling packages
+lerna(info)    Installing external dependencies
+lerna(verbose) NpmUtilities.installInDir     ("C:\\Dev\\jest-harmony-modules\\packages\\111", ["222@222"], {})
+lerna(verbose) FileSystemUtilities.rename    ("C:\\Dev\\jest-harmony-modules\\packages\\111\\package.json", "C:\\Dev\\jest-harmony-modules\\packag...)
+lerna(verbose) NpmUtilities.installInDir     ("C:\\Dev\\jest-harmony-modules\\packages\\000", ["111@111"], {})
+lerna(verbose) FileSystemUtilities.rename    ("C:\\Dev\\jest-harmony-modules\\packages\\000\\package.json", "C:\\Dev\\jest-harmony-modules\\packag...)
+lerna(verbose) FileSystemUtilities.rename    ("C:\\Dev\\jest-harmony-modules\\packages\\000\\package.json", "C:\\Dev\\jest-harmony-modules\\packag...) => 
+lerna(verbose) FileSystemUtilities.writeFile ("C:\\Dev\\jest-harmony-modules\\packages\\000\\package.json", "{\"dependencies\":{\"111\":\"111\"}}")
+lerna(verbose) FileSystemUtilities.rename    ("C:\\Dev\\jest-harmony-modules\\packages\\111\\package.json", "C:\\Dev\\jest-harmony-modules\\packag...) => 
+lerna(verbose) FileSystemUtilities.writeFile ("C:\\Dev\\jest-harmony-modules\\packages\\111\\package.json", "{\"dependencies\":{\"222\":\"222\"}}")
+lerna(verbose) FileSystemUtilities.writeFile ("C:\\Dev\\jest-harmony-modules\\packages\\000\\package.json", "{\"dependencies\":{\"111\":\"111\"}}") => 
+lerna(verbose) FileSystemUtilities.writeFile ("C:\\Dev\\jest-harmony-modules\\packages\\111\\package.json", "{\"dependencies\":{\"222\":\"222\"}}") => 
+lerna(verbose) FileSystemUtilities.renameSync("C:\\Dev\\jest-harmony-modules\\packages\\000\\package.json.lerna_backup", "C:\\Dev\\jest-harmony-mo...)
+lerna(verbose) FileSystemUtilities.renameSync("C:\\Dev\\jest-harmony-modules\\packages\\000\\package.json.lerna_backup", "C:\\Dev\\jest-harmony-mo...) => 
+lerna(error)   NpmUtilities.installInDir     ("C:\\Dev\\jest-harmony-modules\\packages\\000", ["111@111"], {})
+    Command exited with status 1: npm install
+lerna(error)   Errored while running BootstrapCommand.execute

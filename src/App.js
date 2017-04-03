@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { square } from '000';
+import { square } from '../packages/000';
 import logo from './logo.svg';
 import './App.css';
 

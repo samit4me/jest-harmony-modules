@@ -1,5 +1,5 @@
 {
-  "name": "000",
+  "name": "111",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,6 @@
   },
   "author": "Samuel Sharpe",
   "dependencies": {
-    "111": "1.0.0"
+    "222": "1.0.0"
   }
 }

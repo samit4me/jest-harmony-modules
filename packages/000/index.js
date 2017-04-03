@@ -1,12 +1,3 @@
-export function square(x) {
-  return x * x;
-}
+const square = require('./square').square;
 
-export function cube(x) {
-  return x * x * x;
-}
-
-// module.exports = {
-//   square,
-//   cube
-// };
+module.exports = { square };
