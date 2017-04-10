@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import classNames from 'classnames';
 import { square } from '../packages/000';
 import logo from './logo.svg';
-import './App.css';
+import styles from './App.css';
 
 class App extends Component {
   constructor(props) {
@@ -10,17 +11,20 @@ class App extends Component {
   }
 
   squared(x) {
-    return square(x);
+    const test = 'jjjjjjj';
+    return square(`etff_${test}`, styles);
   }
 
   render() {
+    const style = this.squared(2);
+    const className = classNames(style);
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div className={className}>
+        <div className={styles['App-header']}>
+          <img src={logo} className={styles['App-logo']} alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <p className="App-intro">
+        <p className={styles['App-intro']}>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <p>square(2) === {this.squared(2)}</p>
