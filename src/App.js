@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import { square } from '../packages/000';
+import { square } from '000';
 import logo from './logo.svg';
 import styles from './App.css';
 
@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     const style = this.squared(2);
-    const className = classNames(style);
+    const className = classNames(style, styles.stuff);
     return (
       <div className={className}>
         <div className={styles['App-header']}>
